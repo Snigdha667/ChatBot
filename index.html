@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="glass">
+   <a href="home.html"> <button>X</button></a>
+<h1>Ask Your Question??</h1>
+<h2>Yeah,ask Some Question from here...</h2>
+<h6>(Please press enter to get reply.)</h6>
+<div class="input">
+<select  name="askques" id="userBox"
+onkeydown="if(event.keyCode == 13){ talk()}">
+    <option value="Are you a robot?">Are you a robot?</option>
+    <option value="good morning">good morning</option>
+    <option value="good evening">good evening</option>
+    <option value="good afternoon">good afternoon</option>
+    <option value="good night">good night</option>
+    <option value=" what can you do?"> what can you do?</option>
+    <option value="do you know a joke?">do you know a joke?</option>
+    <option value="do you like people?">do you like people?</option>
+    <option value="do you have a hobby?">do you have a hobby?</option>
+    <option value="What is your name?">What is your name?</option>
+    <option value="Who made you?">Who made you?</option>
+    <option value="How many people can you speak to at once?">How many people can you speak to at once?</option>
+    <option value="What’s the weather like today?">What’s the weather like today?</option>
+    <option value="Hello">Hello</option>
+    <option value="Choose a Question to ask !?" selected>Choose a Question to ask !?</option>
+    <option value="good luck">good luck</option>
+    <option value="Who are you?">Who are you?</option>
+    <option value="How are you?">How are you?</option>
+    <option value="Bye">Bye</option>
+    <option value="okay">okay</option>
+    <option value="no">no</option>
+    <option value="yes">yes</option>
+   </select>
+</div>
+<p id="chatLog">Answer Appering Here after a Click!</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
